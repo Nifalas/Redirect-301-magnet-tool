@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.img-container{
+  text-align: center;
+  margin-top: 40px;
+}
 .custom-container {
   margin-top: 40px;
 }
