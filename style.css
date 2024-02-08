@@ -26,6 +26,17 @@ h1{
   margin: 0 auto;  
 }
 
+.form-wrapped{
+  padding: 2em;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f1f8f5;
+  border: 1px solid #ddeee7;
+}
+
 .form-label{
   color: #3d3d3b;
 }
@@ -34,8 +45,18 @@ h1{
   color: #3d3d3b;
 }
 
+.form-collumn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.form-check{
+  margin-bottom: 1em;
+}
+
 .form-check-input{
-  background-color: #95eacc;
+  background-color: white;
 }
 
 .btn{
@@ -44,6 +65,14 @@ h1{
   margin-bottom: 40px;
 }
 
+#btn_generate{
+  transition: 0.5s;
+}
+
+#btn_generate:hover{
+  transform: scale(.9);
+  background-color: #113b51;
+}
 
 
 
