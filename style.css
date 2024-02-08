@@ -13,8 +13,8 @@
   margin: 0 auto;
 }
 
-button:hover {
-  transition: 0.4s linear;
+.btn{
   background-color: #04bf7e;
+  border: 1px solid #04bf7e;
 }
 
