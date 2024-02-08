@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.custom-container {
+  margin-top: 40px;
+}
+
+.custom-card {
+  border: 0px white;
+  margin: 0 auto;
+}
+
+button:hover {
+  transition: 0.4s linear;
+  background-color: #04bf7e;
+}
+
