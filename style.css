@@ -23,6 +23,15 @@ h1{
 .custom-card {
   border: 0px white;
   margin: 0 auto;
+  
+}
+
+.form-label{
+  color: #3d3d3b;
+}
+
+.form-check-label{
+  color: #3d3d3b;
 }
 
 .btn{
@@ -30,5 +39,7 @@ h1{
   border: 1px solid #04bf7e;
   margin-bottom: 40px;
 }
+
+
 
 
