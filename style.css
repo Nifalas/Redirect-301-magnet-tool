@@ -63,16 +63,19 @@ div.form-check{
 .btn{
   background-color: #04bf7e;
   border: 1px solid #04bf7e;
-  margin-bottom: 40px;
+
 }
 
-#btn_generate{
+#btn_generate, .copy-btn{
   transition: 0.5s;
 }
 
-#btn_generate:hover{
+#btn_generate:hover, .copy-btn:hover{
   transform: scale(.9);
   background-color: #113b51;
+}
+.copy-btn{
+  margin-top: .5em;
 }
 
 
