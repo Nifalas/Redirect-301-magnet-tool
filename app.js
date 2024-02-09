@@ -1,6 +1,7 @@
   const btn = document.querySelector("#btn_generate");
   const resume = document.querySelector("#third_field");
   const check = document.querySelector("#domain_check");
+  const btnCopy = document.querySelector("#copy-btn");
 
   btn.addEventListener("click", () => {
     let field_1 = document.querySelector("#first_field");
@@ -24,9 +25,8 @@
     resume.innerHTML = y;
   });
 
-
-
-
+  btnCopy.addEventListener("click", copy);
+  
   function delateDomain(arr) {
     let newArr = [];
     arr.forEach((element) => {
@@ -38,7 +38,12 @@
     return newArr;
   }
 
-
+  function copy() {
+    resume.select();
+    resume.setSelectionRange(0, 99999); 
+    navigator.clipboard.writeText(resume.value);
+    alert("Copied the text: " + resume.value);
+  }
 
 
 
