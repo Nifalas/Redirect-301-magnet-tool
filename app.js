@@ -1,4 +1,4 @@
-const btn = document.querySelector("#btn_generate");
+  const btn = document.querySelector("#btn_generate");
   const resume = document.querySelector("#third_field");
   const check = document.querySelector("#domain_check");
 
@@ -24,6 +24,9 @@ const btn = document.querySelector("#btn_generate");
     resume.innerHTML = y;
   });
 
+
+
+
   function delateDomain(arr) {
     let newArr = [];
     arr.forEach((element) => {
@@ -34,3 +37,9 @@ const btn = document.querySelector("#btn_generate");
     });
     return newArr;
   }
+
+
+
+
+
+  
